@@ -329,6 +329,10 @@ nav{
     align-items: center;
     gap: 16px;
     padding-top: 40px;
+    font-family: "'Merriweather Sans'";
+    color: #41200F;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .articles-temoignages{
@@ -349,6 +353,7 @@ nav{
     font-family: "Merriweather Sans";
     font-size: 12px;
     color: #41200F;
+    background-color:rgb(220, 220, 220);
 }
 
 .image-paragraphe-amelie{
@@ -376,6 +381,7 @@ nav{
     font-family: "Merriweather Sans";
     font-size: 12px;
     color: #41200F;
+    background-color: rgb(220, 220, 220);
 }
 
 .image-paragraphe-julien{
@@ -399,10 +405,11 @@ nav{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: solid #41200F 1px;
+    border: solid #41200F 2px;
     font-family: "Merriweather Sans";
     font-size: 12px;
     color: #41200F;
+    background-color: rgb(220, 220, 220);
 }
 
 .image-paragraphe-de-nadia{
