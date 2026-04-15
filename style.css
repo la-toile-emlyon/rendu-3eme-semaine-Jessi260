@@ -5,8 +5,6 @@
     font-family: "Merriweather Sans";
 }
 
-
-
 .merriweather-sans-uniquifier {
   font-family: "Merriweather Sans", sans-serif;
   font-optical-sizing: auto;
@@ -57,7 +55,6 @@ nav{
     padding: 4px 8px;
     border-radius: 5px;
 }
-
 
 .logo-de-clara{
     height: 25vh;
@@ -178,7 +175,6 @@ nav{
     height: 65vh;
     margin-left: 60px;
 }
-
 
 .liste-non-ordonnée {
     display: flex;
@@ -364,7 +360,6 @@ nav{
     gap: 16px;
     padding-top: 10px;
 }
-
 
 .article-d-amelie img{
     width: 30px;
