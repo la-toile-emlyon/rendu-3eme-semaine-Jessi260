@@ -425,8 +425,8 @@ nav{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 40px;
-    gap: 40px;
+    padding-top: 20px;
+    gap: 25px;
     font-family: "Merriweather Sans";
     font-size: 15px;
 }
@@ -435,15 +435,15 @@ nav{
     flex-direction: column;
     justify-content: flex-start;
     align-items: baseline;
-    gap: 25px;
+    gap: 20px;
 }
-
 
 .btn-envoyer{
     background-color: black;
     color: white;
     border-radius: 5px;
     margin-top: 15px;
+    padding: 10px 25px;
 }
 
 .formulaire-de-remplissage{
