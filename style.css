@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #41200F;
+    font-family: "Merriweather Sans";
+}
+
+
+
+.merriweather-sans-uniquifier {
+  font-family: "Merriweather Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.header-container{
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.benefices{
+    font-family: "Merriweather Sans";
+    text-decoration: none;
+    font-size: 15px;
+    font-style: normal;
+    color: #41200F;
+}
+
+.services{
+    font-family: "Merriweather Sans";
+    text-decoration: none;
+    font-size: 15px;
+    font-style: normal;
+    color: #41200F;
+}
+
+.contact{
+    font-family: "Merriweather Sans";
+    text-decoration: none;
+    font-size: 15px;
+    font-style: normal;
+    background-color: #F0D433;
+    color: #41200F;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+
+.logo-de-clara{
+    height: 25vh;
+    border-radius: 10px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.div-hero-section{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-section{
+    background-image: url(assets/photographe/noemi-macavei-katocz-zrk7WirlxgM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 155vh;
+    color: white;
+}
+
+.hero-section h1{
+    color: white;
+    font-family: "Merriweather Sans";
+    font-size:50px ;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-section p{
+    color: white;
+    font-size: 20px;
+    font-family: "Merriweather Sans";
+    font-style: normal;
+}
+
+.btn-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.btn-reserver{
+    background-color: #F0D433;
+    color: #41200F;
+    text-decoration: none;
+    font-family: "Merriweather Sans";
+    font-style: normal;
+    font-weight: bold;
+    padding: 10px 8px;
+    border-radius: 5px;
+    margin-right: 12px;
+
+}
+
+.btn-reserver:hover{
+    background-color: #41200F;
+    color: #F0D433;
+}
+
+.btn-voir{
+    background-color: #41200F;
+    color: #F0D433;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 8px;
+    font-style:normal;
+    font-weight: bold;
+    font-family: "Merriweather Sans";
+}
+
+.btn-voir:hover{
+    background-color: #F0D433;
+    color: #41200F;
+}
+.promesse-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    padding: 20px 0px;
+}
+
+.promesse-container h2{
+    color:#41200F;
+    font-family: "Merriweather Sans";
+    font-size:20px;
+    font-weight: bold;
+}
+
+.promesse-container p{
+    color: #41200F;
+    font-family: "Merriweather Sans";
+    font-size: 14px;
+    font-style: normal;
+    padding-bottom: 15px;
+}
+
+.valeur-ajoutee{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    height: 65vh;
+    padding-top:10px;
+    gap: 16px;
+}
+
+.appareil-photo{
+    height: 65vh;
+    margin-left: 60px;
+}
+
+
+
+.liste-non-ordonnée {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
+    align-items: start;
+    font-family: "'Merriweather Sans'";
+    font-size: 15px;
+    font-style: italic;
+}
+
+.liste-non-ordonnée ul{
+    margin-right: 60px;
+    color: #41200F;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.btn-vers-galery {  
+    list-style: none;
+    display: inline-block;  
+    background-color: #F0D433;  
+    padding: 12px 12px;
+    width: fit-content;
+    text-decoration: none;  
+    color: #41200F;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.services-container{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin:auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.services-container h2{
+    text-align: center;
+    color: #41200F;
+    font-family: "Merriweather Sans";
+    font-size: 20px;
+    font-weight: bold;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.beachvolley{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.article-cards {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.article-cards img{
+    width: 100%;
+}
+
+.section h2{
+    text-align: center;
+    color: #41200F;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 25px;
+    padding-bottom: 25px;
+}
