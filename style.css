@@ -455,3 +455,10 @@ nav{
     align-items: center;
     gap: 16px;
 }
+
+.form-example label{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
